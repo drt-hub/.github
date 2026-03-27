@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 56" width="200" height="56" role="img" aria-label="drt logo">
+  <title>drt</title>
+
+  <!-- Icon: purple rounded square -->
+  <rect x="0" y="4" width="48" height="48" rx="10" fill="#7C3AED"/>
+
+  <!--
+    Arrow: "|←──"
+    Vertical bar on the right = data warehouse (source)
+    Left-pointing arrow = data flowing OUT (reverse ETL direction)
+    Inspired by dlt's downward arrow, reversed to represent drt's outbound flow
+  -->
+
+  <!-- Source bar (warehouse) -->
+  <line x1="35" y1="20" x2="35" y2="36" stroke="white" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Arrow shaft -->
+  <line x1="13" y1="28" x2="35" y2="28" stroke="white" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Arrowhead pointing left -->
+  <polyline points="21,20 13,28 21,36" fill="none" stroke="white" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Wordmark -->
+  <text
+    x="62" y="38"
+    font-family="'Inter', 'Helvetica Neue', Arial, sans-serif"
+    font-size="32"
+    font-weight="700"
+    letter-spacing="-1"
+    fill="#1E1B4B">drt</text>
+</svg>
